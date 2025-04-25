@@ -10,10 +10,10 @@ public class NearestSmallestToRight {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			int[] arr = {4,5,2,10,8};
-			ngl(arr);
+			nslRight(arr);
 	}
 
-	private static void ngl(int[] arr) {
+	private static void nslRight(int[] arr) {
 		// TODO Auto-generated method stub
 		List<Integer> list = new ArrayList<>();
 		Stack<Integer> st = new Stack<>();

@@ -9,10 +9,10 @@ public class NearestSmallestElement {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			int[] arr = {4,5,2,10,8};
-			ngl(arr);
+			nslLeft(arr);
 	}
 
-	private static void ngl(int[] arr) {
+	private static void nslLeft(int[] arr) {
 		// TODO Auto-generated method stub
 		List<Integer> list = new ArrayList<>();
 		Stack<Integer> st = new Stack<>();

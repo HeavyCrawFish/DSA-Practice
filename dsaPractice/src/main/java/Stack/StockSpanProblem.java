@@ -14,11 +14,11 @@ public class StockSpanProblem {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			int[] arr = {100,80,60,70,60,75,85};
-			ngl(arr);
+			stockSpan(arr);
 	}
 
-	private static void ngl(int[] arr) {
-		// TODO Auto-generated method stub
+	private static void stockSpan(int[] arr) {
+		// we used nGL left index
 		List<Integer> list = new ArrayList<>();
 		Stack<Map.Entry<Integer,Integer>> st = new Stack<>();
 //		List<Integer> arrList = new ArrayList(Arrays.asList(arr));

@@ -6,10 +6,10 @@ public class NextLargestElement {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			int[] arr = {1,3,2,4};
-			ngl(arr);
+			nglRight(arr);
 	}
 
-	private static void ngl(int[] arr) {
+	private static void nglRight(int[] arr) {
 		// TODO Auto-generated method stub
 		List<Integer> list = new ArrayList<>();
 		Stack<Integer> st = new Stack<>();
