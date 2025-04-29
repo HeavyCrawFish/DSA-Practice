@@ -14,6 +14,7 @@ public class Test2 {
 		list.add(10);
 		
 		
+		
 		Map<Integer,Integer> temp = new HashMap<>();
 		ArrayList<Integer> list1 = new ArrayList<Integer>();
 		for(int i=0;i<list.size();i++) {
