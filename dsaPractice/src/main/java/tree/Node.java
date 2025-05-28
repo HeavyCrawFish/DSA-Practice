@@ -27,5 +27,10 @@ public class Node {
 	public void setInfo(int info) {
 		this.info = info;
 	}
+	public Node(Node left, Node right, int info) {
+		this.left = left;
+		this.right = right;
+		this.info = info;
+	}
 	
 }

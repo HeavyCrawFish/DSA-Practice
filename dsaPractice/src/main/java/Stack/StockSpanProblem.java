@@ -21,6 +21,9 @@ public class StockSpanProblem {
 		// we used nGL left index
 		List<Integer> list = new ArrayList<>();
 		Stack<Map.Entry<Integer,Integer>> st = new Stack<>();
+		
+		
+		Collections.reverse(list);
 //		List<Integer> arrList = new ArrayList(Arrays.asList(arr));
 		
 		for(int i=0;i<arr.length;i++) {			

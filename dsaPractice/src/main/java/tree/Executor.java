@@ -25,10 +25,25 @@ public class Executor {
 			
 			case 1: int height = calculateHeight(btree);
 			System.out.println("height of the tree is:"+height);
+			break;
+			
+			case 2:System.out.println("Give a number to search from the tree: ");
+			int k = sc.nextInt();
+			BFS(btree,k);
+			break;
+			
+			default: System.out.println("wrong option!");
 			}
+			
+				
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
+		
+	}
+
+	private static void BFS(Node btree, int k) {
+		// TODO Auto-generated method stub
 		
 	}
 
